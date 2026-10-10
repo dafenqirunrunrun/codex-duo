@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Codex Duo overview</title>
+  <desc id="desc">A dark macOS-style dashboard with Codex account cards and a Claude Code token usage section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151719"/><stop offset="1" stop-color="#222427"/></linearGradient>
+    <linearGradient id="plus" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0edff"/><stop offset="1" stop-color="#d9e7ff"/></linearGradient>
+    <linearGradient id="pro" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#25231f"/><stop offset="1" stop-color="#111214"/></linearGradient>
+    <linearGradient id="cc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f2c8ad"/><stop offset="1" stop-color="#c06b4c"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1440" height="900" rx="32" fill="url(#bg)"/>
+  <circle cx="80" cy="45" r="13" fill="#ff5f57"/><circle cx="120" cy="45" r="13" fill="#ffbd2e"/><circle cx="160" cy="45" r="13" fill="#28c840"/>
+  <text x="64" y="122" fill="#f5f5f7" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="34" font-weight="700">Codex Duo</text>
+  <text x="64" y="153" fill="#9b9da3" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16">桌面与终端，一处掌握</text>
+  <rect x="1090" y="94" width="284" height="54" rx="16" fill="#34363a"/><text x="1130" y="129" fill="#fff" font-family="-apple-system,sans-serif" font-size="16" font-weight="600">↻  刷新全部</text>
+  <text x="64" y="222" fill="#6fa8ff" font-family="-apple-system,sans-serif" font-size="14" font-weight="700" letter-spacing="2">CODEX  /  DESKTOP WORKSPACES</text>
+  <text x="1190" y="222" fill="#68d391" font-family="-apple-system,sans-serif" font-size="14" font-weight="600">● 2/2 运行</text>
+  <rect x="64" y="248" width="634" height="300" rx="24" fill="url(#plus)" filter="url(#shadow)"/>
+  <text x="100" y="294" fill="#6556c9" font-family="-apple-system,sans-serif" font-size="13" font-weight="800" letter-spacing="3">PLUS MEMBER</text>
+  <text x="100" y="336" fill="#15161a" font-family="-apple-system,sans-serif" font-size="28" font-weight="700">A · Aurora</text><text x="600" y="336" fill="#2778e5" font-family="-apple-system,sans-serif" font-size="22" font-weight="800">A</text>
+  <text x="100" y="387" fill="#444750" font-family="-apple-system,sans-serif" font-size="16">5 小时剩余</text><text x="608" y="387" fill="#202127" font-family="-apple-system,sans-serif" font-size="16" font-weight="700">82%</text>
+  <rect x="100" y="402" width="530" height="8" rx="4" fill="#d4d8e8"/><rect x="100" y="402" width="435" height="8" rx="4" fill="#6556c9"/>
+  <text x="100" y="455" fill="#444750" font-family="-apple-system,sans-serif" font-size="16">每周剩余</text><text x="608" y="455" fill="#202127" font-family="-apple-system,sans-serif" font-size="16" font-weight="700">68%</text>
+  <rect x="100" y="470" width="530" height="8" rx="4" fill="#d4d8e8"/><rect x="100" y="470" width="360" height="8" rx="4" fill="#6556c9"/>
+  <rect x="728" y="248" width="648" height="300" rx="24" fill="url(#pro)" stroke="#d2a94f" stroke-opacity=".55" filter="url(#shadow)"/>
+  <text x="764" y="294" fill="#e5bd66" font-family="-apple-system,sans-serif" font-size="13" font-weight="800" letter-spacing="3">PRO MEMBER  ♛</text>
+  <text x="764" y="336" fill="#f5f5f7" font-family="-apple-system,sans-serif" font-size="28" font-weight="700">B · Obsidian</text><text x="1280" y="336" fill="#5ed3ae" font-family="-apple-system,sans-serif" font-size="22" font-weight="800">B</text>
+  <text x="764" y="387" fill="#b7b8bc" font-family="-apple-system,sans-serif" font-size="16">每周剩余</text><text x="1282" y="387" fill="#f5f5f7" font-family="-apple-system,sans-serif" font-size="16" font-weight="700">93%</text>
+  <rect x="764" y="402" width="550" height="8" rx="4" fill="#403e3a"/><rect x="764" y="402" width="512" height="8" rx="4" fill="#e0b75c"/>
+  <line x1="64" y1="600" x2="1376" y2="600" stroke="#c97a5a" stroke-opacity=".45"/>
+  <text x="64" y="648" fill="#d88967" font-family="-apple-system,sans-serif" font-size="14" font-weight="800" letter-spacing="2">CLAUDE CODE  /  LOCAL TOKEN USAGE</text>
+  <rect x="64" y="680" width="1312" height="150" rx="24" fill="#292221" stroke="#c97a5a" stroke-opacity=".65"/>
+  <rect x="96" y="712" width="54" height="54" rx="16" fill="#c97a5a" fill-opacity=".2"/><text x="112" y="749" fill="#e18a67" font-family="monospace" font-size="24">&gt;_</text>
+  <text x="180" y="726" fill="#f3f3f5" font-family="-apple-system,sans-serif" font-size="21" font-weight="700">Third-party model · Anthropic-compatible gateway</text>
+  <text x="180" y="756" fill="#a9a4a0" font-family="-apple-system,sans-serif" font-size="15">今日 2,049 Tokens   ·   近 7 天 2,049 Tokens   ·   输入 / 输出 / 缓存</text>
+  <rect x="1080" y="716" width="244" height="50" rx="14" fill="#d37a5b"/><text x="1130" y="748" fill="#fff" font-family="-apple-system,sans-serif" font-size="16" font-weight="700">↗  打开终端</text>
+</svg>

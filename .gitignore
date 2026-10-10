@@ -1,0 +1,26 @@
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local credentials, account state and generated handoff data
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+handoffs/
+backups/
+screenshots-local/
+*.usage.json
+*-usage.json
+*-history.jsonl
+settings.json
+gateway.json
+shared-project.json
+conversation-sync.json
+pending-workspace-sync.json
+last-workspace-sync.json
+second-home/
+second-desktop-data/
