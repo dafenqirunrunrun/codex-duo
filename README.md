@@ -28,7 +28,7 @@
 需要 macOS 14+、Xcode Command Line Tools 和 Python 3。
 
 ```sh
-git clone <你的仓库地址>
+git clone https://github.com/dafenqirunrunrun/codex-duo.git
 cd codex切换监控用量平台
 ./build.sh
 open "dist/Codex Duo.app"

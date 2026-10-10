@@ -15,6 +15,7 @@ backups/
 screenshots-local/
 *.usage.json
 *-usage.json
+*-usage-cache.json
 *-history.jsonl
 settings.json
 gateway.json
